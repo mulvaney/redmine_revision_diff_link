@@ -1,8 +1,11 @@
+require 'redmine'
+require_dependency 'redmine_revision_diff_links/hooks'
+
 Redmine::Plugin.register :redmine_revision_diff_link do
   name 'Redmine Revision Diff Link plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Mike Mulvaney'
+  description 'Simple Redmine plugin to show diff link for revision on issue page'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'http://github.com/mulvaney/redmine_revision_diff_link'
+  author_url 'http://github.com/mulvaney'
 end
