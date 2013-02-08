@@ -12,4 +12,6 @@ is to get a Redmine plugin going.
 Just clone into the plugins directory in your Redmine install and
 restart Redmine.
 
+# Screenshot
 
+![Screenshot](https://raw.github.com/mulvaney/redmine_revision_diff_link/master/images/screenshot.png)
